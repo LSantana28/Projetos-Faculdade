@@ -5,27 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drones.net</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div id="container" style="border: 1px solid red;">
         <div class="header">
         <img src="img/logo.fw.png" class="img-logo-header" alt="Logo drones">
 
-        <iframe src="menu1.html" frameborder="0" id="menu1"></iframe>
+        <ul id="menu1">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NOSSA EMPRESA</a></li>
+            <li><a href="#">LOJAS</a></li>
+            <li><a href="#">LOCALIZAÇÃO</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
 
-        <div class="bannerfw"></div>
+        <div class="bannerfw">
+            <img src="img/banner.fw.png" alt="">
+        </div>
         
-        <iframe src="menu2.html" frameborder="0" id="menu2"></iframe>
+        <ul id="menu2">
+            <li><a href="#">PRODUTOS</a></li>
+            <li><a href="#">LOJA VIRTUAL</a></li>
+            <li><a href="#">CURSOS</a></li>
+            <li><a href="#">SERVIÇOS</a></li>
+        </ul>
     </div>
 
     <h1 class="loja-virtual">LOJA VIRTUAL</h1>
-    <img src="/img/imgDroneA.png" alt="Drone A" id="dronea">
+    <img src="/Projeto Drones/img/imgDroneA.png" alt="Drone A" id="dronea">
 
-    <div>
-        <img src="img/DroneA.png" alt="">
+    <div id="drones">
+        <div id="drone-a">
+            <div id="titulo-drone1">Dji Inspire 1</div>
+            <img src="img/DroneA.png" alt="Drone-1">
+            <p>O Inspire 1 é o novo quadricóptero da DJI, capaz de capturar imagens em 4k e transmiti-las ao vivo</p>
+        </div>
+
+        <div id="drone-b">
+            <div id="titulo-drone2">Phantom 2 + Zenmuse H3-3D</div>
+            <img src="img/DroneB.png" alt="Drone-2">
+            <p>O Phantom 2 é um dos quadricópteros mais desejados por quem busca um drone profissional</p>
+        </div>
+
+        <div id="drone-c">
+            <div id="titulo-drone3">AR.Drone 2.0</div>
+            <img src="img/DroneC.png" alt="Drone-3">
+            <p>O AR.Drone é um dos brinquedos mais legais do mundo. A ideia de contrlar um quadricóptero com um iPhone/iPad ou Android</p>
+        </div>
     </div>
-
     </div>
 </body>
 </html>
